@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scuba Druskininkai – Nardymo mokykla</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">
+      <img src="292516018_470338108426936_1436452646893369608_n-removebg-preview.png" alt="Scuba Druskininkai" />
+    </a>
+    <button class="burger" id="burger" aria-label="Meniu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#apie">Apie mus</a></li>
+      <li><a href="#paslaugos">Paslaugos</a></li>
+      <li><a href="#bubble-rangers">Bubble Rangers</a></li>
+      <li><a href="#galerija">Galerija</a></li>
+      <li><a href="#kontaktai" class="nav-cta">Susisiekti</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="bubbles" aria-hidden="true">
+      <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+      <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+      <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+      <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+    </div>
+    <div class="hero-content">
+      <span class="hero-badge">Druskininkai · Lietuva</span>
+      <h1>Nardyk su<br/><em>drąsa ir džiaugsmu</em></h1>
+      <p>Virš 10 metų patirtis · Individualios pamokos · Vaikų mokykla</p>
+      <div class="hero-btns">
+        <a href="#paslaugos" class="btn btn-primary">Paslaugos</a>
+        <a href="#kontaktai" class="btn btn-outline">Susisiekti</a>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,60 C360,120 1080,0 1440,60 L1440,120 L0,120 Z" fill="#0b1e3d"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- APIE MUS -->
+  <section id="apie" class="section">
+    <div class="container about-grid">
+      <div class="about-images">
+        <div class="about-img-main reveal">
+          <img src="67834571_1994567567309909_7145487556497375232_n.jpg" alt="Instruktorius prie ežero" />
+        </div>
+        <div class="about-img-float reveal delay-1">
+          <img src="514180795_10160846598761402_2665375292243788167_n.jpg" alt="Nardytojų atradimas" />
+        </div>
+      </div>
+      <div class="about-text reveal delay-2">
+        <span class="section-tag">Apie mus</span>
+        <h2>Aistra nardymui –<br/>virš <em>10 metų</em></h2>
+        <p>Esu profesionalus nardymo instruktorius iš Druskininkų. Per daugiau nei dešimtmetį padėjau šimtams žmonių – nuo mažiausių naujokų iki patyrusiųjų – atrasti povandeninį pasaulį.</p>
+        <p>Kiekvienas nardymas yra nuotykis: radom žiedus, skulptūras ir daugybę ežerų paslapčių. Tikiu, kad nardymas turi būti ne tik saugus, bet ir linksmas!</p>
+        <div class="stats">
+          <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Metų patirties</span></div>
+          <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Išmokyti nardytojai</span></div>
+          <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Nuotykių</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PASLAUGOS -->
+  <section id="paslaugos" class="section section-dark">
+    <div class="bubbles bubbles-sm" aria-hidden="true">
+      <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+      <div class="bubble"></div><div class="bubble"></div>
+    </div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Paslaugos</span>
+        <h2>Ką mes siūlome?</h2>
+        <p>Nuo pirmojo nardymo iki atvirojo vandens – rasime tinkamą kursą kiekvienam</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">🤿</div>
+          <h3>Individualios pamokos</h3>
+          <p>Asmeninis dėmesys, lankstus grafikas. Mokomės baseine arba atvirame vandenyje – kaip tau patogiau.</p>
+          <a href="#kontaktai" class="service-link">Sužinoti daugiau →</a>
+        </div>
+        <div class="service-card reveal delay-1">
+          <div class="service-icon">🌊</div>
+          <h3>Atvirojo vandens nardymas</h3>
+          <p>Nardymai Druskininkų ežeruose. Ramioje aplinkoje atrasi povandeninį pasaulį visu grožiu.</p>
+          <a href="#kontaktai" class="service-link">Sužinoti daugiau →</a>
+        </div>
+        <div class="service-card reveal delay-2">
+          <div class="service-icon">🏊</div>
+          <h3>Grupiniai kursai</h3>
+          <p>Nardymo kursai grupėmis – puiki proga kartu su draugais ar šeima įgyti naujų įgūdžių.</p>
+          <a href="#kontaktai" class="service-link">Sužinoti daugiau →</a>
+        </div>
+        <div class="service-card reveal delay-3">
+          <div class="service-icon">🔍</div>
+          <h3>Paieška po vandeniu</h3>
+          <p>Praradote vertingą daiktą vandenyje? Padedame surasti – žiedus, telefonus, raktus ir kt.</p>
+          <a href="#kontaktai" class="service-link">Sužinoti daugiau →</a>
+        </div>
+        <div class="service-card reveal delay-1">
+          <div class="service-icon">📸</div>
+          <h3>Nuotykių nardymai</h3>
+          <p>Teminiai nardymai su nuotraukomis ir įspūdžiais. Puiki dovana artimam žmogui.</p>
+          <a href="#kontaktai" class="service-link">Sužinoti daugiau →</a>
+        </div>
+        <div class="service-card reveal delay-2">
+          <div class="service-icon">🎓</div>
+          <h3>Sertifikuoti kursai</h3>
+          <p>Oficialūs sertifikatai, pripažįstami visame pasaulyje. Tavo nardymo kelionė prasideda čia.</p>
+          <a href="#kontaktai" class="service-link">Sužinoti daugiau →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUBBLE RANGERS -->
+  <section id="bubble-rangers" class="section section-bubble-rangers">
+    <div class="container bubble-rangers-grid">
+      <div class="br-text reveal">
+        <span class="section-tag tag-coral">Vaikų programa</span>
+        <h2 class="br-title">
+          <span class="bubble-logo">🫧</span> Bubble Rangers
+        </h2>
+        <p class="br-lead">Nardymo mokykla vaikams, kur nuotykiai prasideda nuo pirmo burbulo!</p>
+        <p>„Bubble Rangers" – tai speciali programa, sukurta vaikams. Žaidybinis mokymasis, saugumas ir daugybė džiaugsmo. Vaikai mokosi kvėpuoti po vandeniu, pažįsta povandeninį pasaulį ir įgyja pasitikėjimo savimi.</p>
+        <ul class="br-features">
+          <li>🎯 Amžius nuo 8 metų</li>
+          <li>🏊 Mokomės baseine</li>
+          <li>👨‍🏫 Mažos grupės – didelis dėmesys</li>
+          <li>🏅 Sertifikatas baigus kursą</li>
+          <li>😄 Linksma ir saugu!</li>
+        </ul>
+        <a href="#kontaktai" class="btn btn-coral">Registruotis</a>
+      </div>
+      <div class="br-images reveal delay-1">
+        <div class="br-img-stack">
+          <div class="br-img-top">
+            <img src="480292938_8626668484099751_1675768053607996615_n.jpg" alt="Vaikas su nardymo įranga" />
+          </div>
+          <div class="br-img-bottom">
+            <img src="480656819_8635931366506796_7016877360518272788_n.jpg" alt="Instruktorius su vaikais" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIJA -->
+  <section id="galerija" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Galerija</span>
+        <h2>Akimirkos po vandeniu</h2>
+        <p>Kiekvienas nardymas – nauja istorija</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal" style="--i:0">
+          <img src="483544308_1243237294470343_1554870820880846258_n.jpg" alt="Grupė po vandeniu" loading="lazy" />
+          <div class="gallery-overlay"><span>Grupinis nardymas</span></div>
+        </div>
+        <div class="gallery-item reveal" style="--i:1">
+          <img src="480292938_8626668484099751_1675768053607996615_n.jpg" alt="Vaikas su įranga" loading="lazy" />
+          <div class="gallery-overlay"><span>Bubble Rangers</span></div>
+        </div>
+        <div class="gallery-item reveal" style="--i:2">
+          <img src="514180795_10160846598761402_2665375292243788167_n.jpg" alt="Undinė po vandeniu" loading="lazy" />
+          <div class="gallery-overlay"><span>Atradimas</span></div>
+        </div>
+        <div class="gallery-item reveal" style="--i:3">
+          <img src="480656819_8635931366506796_7016877360518272788_n.jpg" alt="Vaikai baseine" loading="lazy" />
+          <div class="gallery-overlay"><span>Pamoka baseine</span></div>
+        </div>
+        <div class="gallery-item reveal" style="--i:4">
+          <img src="513222113_10160841820521402_394034058995721228_n.jpg" alt="Žiedas po vandeniu" loading="lazy" />
+          <div class="gallery-overlay"><span>Žiedo paieška</span></div>
+        </div>
+        <div class="gallery-item reveal" style="--i:5">
+          <img src="67834571_1994567567309909_7145487556497375232_n.jpg" alt="Instruktorius prie ežero" loading="lazy" />
+          <div class="gallery-overlay"><span>Atvirasis vanduo</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA juosta -->
+  <section class="cta-band">
+    <div class="cta-band-bubbles" aria-hidden="true">
+      <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+    </div>
+    <div class="container cta-band-inner reveal">
+      <h2>Pasiruošęs nardyti?</h2>
+      <p>Susisiek šiandien – pirmoji konsultacija nemokama!</p>
+      <a href="#kontaktai" class="btn btn-primary btn-lg">Rezervuoti vietą</a>
+    </div>
+  </section>
+
+  <!-- KONTAKTAI -->
+  <section id="kontaktai" class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Kontaktai</span>
+        <h2>Susisiekime!</h2>
+        <p>Turite klausimų? Rašykite ar skambinkite – atsakysiu greitai</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Vieta</h4>
+              <p>Druskininkai, Lietuva</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h4>Telefonas</h4>
+              <p><a href="tel:+370862360170">+370 (8-623) 60170</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <h4>El. paštas</h4>
+              <p><a href="mailto:scubadruskininkai@gmail.com">scubadruskininkai@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">📘</div>
+            <div>
+              <h4>Facebook</h4>
+              <p><a href="https://www.facebook.com/scubadruskininkai" target="_blank" rel="noopener">Scuba Druskininkai</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">⏰</div>
+            <div>
+              <h4>Darbo laikas</h4>
+              <p>Pirmad–Sekmadienis<br/>Pagal susitarimą</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal delay-1" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Vardas</label>
+            <input type="text" id="name" name="name" placeholder="Jūsų vardas" required />
+          </div>
+          <div class="form-group">
+            <label for="email">El. paštas</label>
+            <input type="email" id="email" name="email" placeholder="jusu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="service">Paslauga</label>
+            <select id="service" name="service">
+              <option value="">Pasirinkite paslaugą...</option>
+              <option>Individualios pamokos</option>
+              <option>Bubble Rangers (vaikai)</option>
+              <option>Atvirojo vandens nardymas</option>
+              <option>Grupiniai kursai</option>
+              <option>Paieška po vandeniu</option>
+              <option>Kita</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Žinutė</label>
+            <textarea id="message" name="message" rows="4" placeholder="Parašykite savo klausimą..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Siųsti žinutę 🤿</button>
+          <div class="form-success" id="formSuccess">Ačiū! Susisieksiu su jumis greitai 🌊</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <img src="292516018_470338108426936_1436452646893369608_n-removebg-preview.png" alt="Scuba Druskininkai" class="footer-logo" />
+      <p class="footer-copy">© 2025 Scuba Druskininkai · Visi teisės saugomos</p>
+      <p class="footer-made">Nardome su meile 🫧</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
