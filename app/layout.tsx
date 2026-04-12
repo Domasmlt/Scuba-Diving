@@ -17,6 +17,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
+  icons: { icon: "/favicon.svg" },
   title: "Scuba Druskininkai – Nardymo mokykla",
   description:
     "Profesionalus nardymo instruktorius iš Druskininkų. " +
